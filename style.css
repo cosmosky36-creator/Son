@@ -1,0 +1,30 @@
+.header {
+    padding: 25px 20px;
+    text-align: center;
+    background-color: violet;
+}
+
+.container {
+    width: 1200px;
+    margin: 0;
+    padding: 20px 15px;
+}
+
+.penjelasan {
+    font-size: 1rem;
+    margin-bottom: 24px;
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 400px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
